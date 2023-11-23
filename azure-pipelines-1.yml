@@ -23,7 +23,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.7'
+  pythonVersion: '3.8'
 
 stages:
 - stage: Build
@@ -82,6 +82,8 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : phongmx-webapp'
             inputs:
-              azureSubscription: $(azureServiceConnectionId)
-              appName: $(webAppName)
-              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              azureSubscription: 'phongmx sub (63e57a67-37de-4afd-82b5-03b188e46c5d)-6960'
+              appType: 'webAppLinux'
+              appName: 'phongmx-webapp'
+              package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
+              runtimeStack: 'PYTHON|3.8'
