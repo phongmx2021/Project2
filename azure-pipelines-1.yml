@@ -85,5 +85,5 @@ stages:
               azureSubscription: 'phongmx sub (63e57a67-37de-4afd-82b5-03b188e46c5d)'
               appType: 'webAppLinux'
               WebAppName: 'phongmx-webapp'
-              packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+              packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
               RuntimeStack: 'PYTHON|3.8'
