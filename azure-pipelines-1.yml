@@ -82,7 +82,7 @@ stages:
           - task: AzureRmWebAppDeployment@4
             inputs:
               ConnectionType: 'AzureRM'
-              azureSubscription: 'phongmx sub (63e57a67-37de-4afd-82b5-03b188e46c5d)'
+              azureSubscription: 'phongmx sub(63e57a67-37de-4afd-82b5-03b188e46c5d)'
               appType: 'webAppLinux'
               WebAppName: 'phongmx-webapp'
               packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
