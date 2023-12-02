@@ -2,10 +2,6 @@
 
 The aim of this project is to build a fresh Github repository from the ground up and establish the necessary foundation for implementing both Continuous Integration and Continuous Delivery.
 
-To accomplish this objective, we'll be utilizing Github Actions alongside a Makefile, requirements.txt, and our application code to carry out initial processes such as linting, testing, and installation.
-
-Moreover, we intend to integrate this project with Azure Pipelines to facilitate seamless Continuous Delivery to Azure App Service. Throughout this project, we'll be making use of Azure Cloud Shell.
-
 ###  Project Plan
 
 - [Trello Board](https://trello.com/b/DvAKdGrF/azuredevops)
@@ -64,3 +60,39 @@ Moreover, we intend to integrate this project with Azure Pipelines to facilitate
 
 
 - Load test with web app by Locust
+
+![Alt text](image/Lostcust.png)
+
+### Azure DevOps
+
+Go to Azure Devops > Create new project & and follow image below to add connection
+
+![Alt text](image/ProjectSetting.png)
+
+![Alt text](image/NewConnection.png)
+
+![Alt text](image/NewConnection2.png)
+
+![Alt text](image/NewConnection3.png)
+
+- Add new Pipelines
+
+![Alt text](image/Pipeline.png)
+![Alt text](image/Pipeline2.png)
+
+- Deploy project to Azure Pipelines
+![Alt text](image/Deploy.png)
+
+- Running on Azure App Service
+![Alt text](image/RunApp.png)
+
+- Web App with Azure Pipelines in Deployment Center
+![Alt text](image/DeploymentCenter.png)
+- Web App Deployed Logs
+![Alt text](image/DeployLog.png)
+- Output of streamed log 
+![Alt text](image/StreamLog.png)
+- Check result predict
+![Alt text](image/Predict_Azure_App.png)
+
+### Video demonstration
