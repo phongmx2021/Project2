@@ -92,6 +92,7 @@ Go to Azure Devops > Create new project & and follow image below to add connecti
 ![Alt text](image/DeployLog.png)
 - Output of streamed log 
 ![Alt text](image/StreamLog.png)
+![Alt text](image/StreamLog2.png)
 - Check result predict
 ![Alt text](image/Predict_Azure_App.png)
 
