@@ -102,3 +102,4 @@ Go to Azure Devops > Create new project & and follow image below to add connecti
 Implement Terraform & packer to make the step build infra faster
 
 ### Video demonstration
+https://youtu.be/vvBCiKZxu3M
