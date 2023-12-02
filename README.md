@@ -95,4 +95,9 @@ Go to Azure Devops > Create new project & and follow image below to add connecti
 - Check result predict
 ![Alt text](image/Predict_Azure_App.png)
 
+
+### how to improve the project in the future
+
+Implement Terraform & packer to make the step build infra faster
+
 ### Video demonstration
