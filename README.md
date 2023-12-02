@@ -30,8 +30,8 @@ Moreover, we intend to integrate this project with Azure Pipelines to facilitate
 - Create and active virtual env:
 
   ```bash
-    python3 -m venv ~/.phongmx-udacity
-    source ~/.phongmx-udacity/bin/activate
+    python3 -m venv ~/.myvenv
+    source ~/.myvenv/bin/activate
   ```
 
 - Install dependencies and make test, lint with Make file:
