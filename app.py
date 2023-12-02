@@ -22,7 +22,7 @@ def scale(payload):
 @app.route("/")
 def home():
     html = "<h3>Sklearn Prediction Home</h3>"
-    return html.format(format)
+    return html.format(format)x
 
 # TO DO:  Log out the prediction value
 @app.route("/predict", methods=['POST'])
@@ -47,4 +47,5 @@ def predict():
     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
+    app.run(host='0.0.0.0', port=5000, debug=True)
