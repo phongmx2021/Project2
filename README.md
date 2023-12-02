@@ -36,10 +36,12 @@ Moreover, we intend to integrate this project with Azure Pipelines to facilitate
 
 - Install dependencies and make test, lint with Make file:
 ![Alt text](image/Makeall.png)
-
-- Run application
+```bash
+    make install
+    python -m flask run
+```
+- Run test make prediction
 
 ```bash
-    export FLASK_APP=app.py
-    flask run
+    ./make_prediction
 ```
